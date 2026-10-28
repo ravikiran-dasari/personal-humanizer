@@ -1,0 +1,235 @@
+## Post 1
+
+Audience: Embedded/automotive specialists
+Purpose: Share an experience of a tech event visit
+Written fully by me: Partly / AI-assisted
+My preffered post length: Yes
+
+🚗 Attended a session by VectorInformatik on SDV development during TechNight2026, focusing on Virtualization and continuous validation.
+
+🔍 Of all the demonstrations presented during the session, the one that had the most impact showed a live nonAUTOSAR based ECU integrated with Vector's SIL Kit. It allows modeling of electronics systems within a VirtualEnvironment. For the demonstration, SIL Kit was utilized to integrate the nonAUTOSAR based ECU over a network and run an tests case scenarios.
+
+💡 This particular demonstration was the most valuable for me, as I am currently working on a nonAUTOSAR project and am seeking to understand more about other projects that utilize AUTOSAR. The other sessions and papers focused on SDV and virtualization have primarily been project and case studies focused on the AUTOSAR platform. Therefore, it was interesting to see a nonAUTOSAR based vECU. This demonstrates that the industry is progressing with virtualization, regardless of the platform being utilized.
+
+🗒️ A few other points presented by the session that I found most useful:
+◾ Test ECU behavioral software using vECUs (Shift Left testing)
+◾ SIL and HIL test case suites are almost interchangeable
+◾ Multiple approaches to ECU virtualization
+
+🔗 Vector also has an open source git repo for SIL Kit, which allows integration of SIL environments: https://lnkd.in/dFnXQ8gc
+
+🚀 Finally I feel it's a very insightful session and good opportunity to learn more about evolving SDV development and validation landscape. I am interested in understanding what SIL Kit allows us to do and  how we can integrate within our projects.
+
+## Post 2
+
+Audience: General tech audience
+Purpose: Report technology news
+Written fully by me: Partly / AI-assisted
+My preffered post length: Yes
+
+🚨 Civilian AI In Military Weapons: How Russia Weaponized a $249 AI Chip 🚨 
+
+The headlines caught my attention, but the technical details kept me researching late into the night. You know that $249 NVIDIA JetsonOrin chip? The one designed for medical imaging systems and warehouse robots. It's now reportedly being used in Russian military drones.
+
+The Chinese company Leetop packaged NVIDIA's chip into their A203 microcomputer system. On paper, it looks like standard industrial hardware and nothing military about it.
+Until Ukrainian forces analyzed Russia's MS001 bomber drone last month. Ukrainian Major General calls it "a digital predator".
+
+This drone can:
+✅  Identify targets using real-time computer vision
+✅  Make autonomous decisions without human oversight
+✅  Coordinate with other drones in swarms
+✅  Resist electronic warfare countermeasures
+
+NVIDIA states their chips "are not available in Russia and are not designed for military purposes." Yet somehow, through third parties, the technology still reaches these systems and now potentially targeting civilians.
+
+This isn't just about one company or one conflict. We're witnessing how quickly civilian AI technology can be weaponized.
+Today it's drones. Tomorrow it could be autonomous fighter jets or ground vehicles making life or death decisions.
+
+The tech industry needs to step up:
+🗒️  Stronger supply chain monitoring
+🛠️  Hardware level usage tracking
+🌏  International agreements on autonomous weapons systems
+
+We might not uninvent this technology, but we can be smarter about controlling it.
+
+## Post 3
+
+Audience: Robotics and AI enthusiasts
+Purpose: Promote my Medium article
+Written fully by me: Partly / AI-assisted
+
+🤖 Why do robots still move like they’re glitching?
+
+It’s something that struck me while rewatching C-3PO stumble across the screen in StarWars even after decades of innovation, many robots still move in ways that feel… mechanical, unnatural, almost lifeless.
+
+But what if robots could move like they had a soul?
+
+I came across Disney’s BDX droid named “Blue” robot during NVIDIA’s GTC event which happened few months back. This tiny robot didn’t just walk… it waddled, glanced, and even looked like it had intent behind its movements.
+
+Curious about how this was possible, I dove into the world of simulation-driven training, reinforcement learning, and how studios like Disney collaborating with GoogleDeepMind and NVIDIA and blending physics engines with animation principles to breathe life into machines.
+
+🧠 In my latest Medium article I tried to explore:
+▫️How simulation is teaching robots to move with emotion.
+▫️The role of NVIDIA’s Newton engine in “reality-ready” robotics
+▫️Why soulful motion might be the next big leap in HRI (Human-Robot Interaction)
+
+If you’re into robotics, AI, or just fascinated by where tech meets storytelling. this read might offer you a fresh perspective.
+
+## Post 4
+
+Audience: AI practitioners and enthusiasts
+Purpose: Discuss and critique AI research
+Written fully by me: Partly / AI-assisted
+
+🧠💥 Did Apple expose something the AI world isn’t ready to admit ?
+
+Ever asked ChatGPT or Claude to solve a simple logic puzzle, and thought "This thing is very smart!"
+
+As someone deep in exploring LLMs and RAG architectures, this latest research triggered my understanding perspective.
+
+Apple's recent paper, "The Illusion of Thinking: Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem Complexity", drops a sharp reality check on how these AI models "think" or "they don't".
+Apple tested all the big LLMs GPT, Claude, Gemini on classic reasoning puzzles. Tower of Hanoi, River crossing. The kind of stuff kids do in school.
+
+🧩 Here's what happened:
+▪️ Easy puzzles?  |  AI solved them quickly
+▪️ Harder puzzles?  |  AI started to struggle
+▪️ Complex puzzles?  |  AI accuracy collapsed
+They still failed even after feeding them exact solving algorithms.
+
+Here's what Apple mentioned:
+One model used 100+ steps to solve "Tower of Hanoi" but couldn't manage 4 simple moves in a "River Crossing" puzzle. Why because the Hanoi puzzle existed in its training data. The river one didn't.
+
+That's why Apple says: It's not reasoning it's just pattern matching.
+
+⚠️ But researchers from OpenAI and Anthropic came back with their counterpoints:
+✅ Models hit token limits, not cognitive boundaries.
+✅ Some test puzzles were unsolvable by design.
+✅ When asked to write algorithms instead of listing moves, models did fine.
+
+So maybe it's not that models can't reason, it's that Apple might testing them wrong. Imagine asking a developer: "List every single keystroke you use to build this feature" instead of just letting them write the code.
+
+📌 The real takeaway?
+This research doesn't deny the AI revolution. But it forces us to be honest.
+Right now, these models are brilliant pattern matching engines with excellent memory not the reasoning machines that we think they are.
+
+💬 Question for fellow explorers: What's the most surprising AI behavior you've encountered while experimenting? The kind that made you go "wait, how did it excel at X but completely miss Y?"
+
+## Post 5
+
+Audience: Engineering professionals
+Purpose: Share a creative analogy
+Written fully by me: Yes
+My preffered post length: Yes
+
+🚀 What do Tesseract in Interstellar movie, and an array in C programming have in common?
+Surprisingly — there is one thing!
+
+If you’ve seen Interstellar, you might remember the moment Cooper enters the Tesseract — a surreal 5D space where time becomes a navigable dimension. He reaches through the fabric of time to send data to his daughter, helping save humanity.
+
+In C programming, especially in embedded systems, we often work with multi-dimensional arrays like int grid[2][2][2][2]. But what’s actually happening behind the scenes?
+We’re flattening higher dimensions (4D structures) into linear memory, just like how a tesseract must be flattened to be visualized in our 3D world.
+
+🔍 In my latest visual article, I tried to explore this analogy:
+
+You’ll understand how memory addressing works in C, how 4D arrays are stored, and how this concept is used by developers working with sensor grids, ML models, or real-time data pipelines on embedded devices.
+
+📄 Read the full article below
+
+💬 Curious to hear your thoughts! Have you ever thought of memory as dimensional space?|
+
+## Post 6
+
+Audience: Embedded systems professionals
+Purpose: Educate about I3C
+Written fully by me: Yes
+My preffered post length: Yes
+
+🔗 I3C in Embedded Systems: Smarter Communication for Modern Devices
+
+With embedded systems increasing in complexity and sensor numbers, a high-speed, low-power communication protocol becomes essential. That's when MIPI_Alliance announced I3C (Improved Inter-Integrated Circuit) in 2016 as the next-generation replacement for both I2C and SPI*.
+
+🔹 What is I3C?
+I3C is a advanced version of I2C serial communication protocol with same 2-wires, this provides high-speed data transfer of up to 33 Mbps, dynamic addressing, hot-join capability, and most importantly IBI (In-Band Interrupts).
+
+⚡ Why Use I3C in Embedded Systems?
+✅ In-Band Interrupt (IBI): Slave can alert the controller directly over the same bus lines (no extra IRQ pins needed)
+✅ Up to 94% faster than I2C: Higher throughput improves system responsiveness.
+✅ Reduced pin count: Only two lines for both data and interrupts, hence  simpler PCB design.
+✅ Hot-Join & Dynamic Addressing: Add sensors on the fly without rebooting the system.
+✅ Backward Compatible: Supports legacy I2C devices, easing the transition.
+
+⚠️ Why I3C Isn’t Common yet in Embedded Systems?
+Despite its many advantages, I3C is still not widely used in embedded systems for the following reasons.
+🚫 Most MCUs don’t support I3C yet
+📦 I2C and SPI are already well-known and widely used
+🧠 Fewer sensors and chips available with I3C support
+🔒 I3C was not fully open in the beginning (early licensing concerns)
+🛠️ Many embedded projects don’t need advanced I3C features
+
+It’s super interesting to see how I3C is shaping the future of embedded communication.
+
+## Post 7
+
+Audience: Engineering professionals
+Purpose: Share technology news
+Written fully by me: No
+
+🚀 Microsoft’s Quantum Leap: A Game-Changer or Just Hype?
+
+Quantum computing is one of the most exciting topic in tech, and Microsoft just made a claim that could change everything about QuantumProcessingUnit (QPU). 🔲
+
+🔹 The Challenge with #QuantumComputers : 🌐
+We need quantum computers to unlock new possibilities, like simulating nature more precisely, but building a useful one is really hard. The more qubits (quantum bits) we add, the more errors come in. That’s because qubits are super sensitive and easily disrupted.
+
+🔹 Microsoft’s Big Idea: The Topological Qubit ⚛️
+Instead of storing information in a single fragile spot, Microsoft’s qubit spreads it out using a new state of matter MajoranaQuasiparticles. In theory, this makes quantum computers more stable and scalable by reducing errors.
+
+💡 Simply Put: Imagine writing a message on sand, but instead of a single spot that can be erased, the message is spread out across the entire surface. Even if a part gets disturbed, the message is still there.
+
+🔹 The Controversy: 📢
+Microsoft claims they not only created these qubits but can control them, which is a massive breakthrough! However, while their peer-reviewed paper suggests they’ve seen Majorana Quasiparticles, it doesn’t 100% prove it.
+
+🔮 If this is true, it could be a major breakthrough in quantum computing. But until it’s confirmed, we can’t say for sure.
+
+## Post 8
+
+Audience: Space and defence-tech audience
+Purpose: Educate about TSAT-1A
+Written fully by me: Partly / AI-assisted
+
+TSAT1A: Revolutionizing Earth Observation with Private Sector Innovation
+
+In a groundbreaking move, Tata Advanced Systems Limited (TASL) and Satellogic Inc. have joined forces to develop TSAT-1A, a cutting-edge optical Earth observation satellite. This collaboration, initiated in late 2023 and now marks a significant milestone in the realm of space technology by successfully launching the TSAT-1A on 7th April 2024, showcasing the power of PublicPrivatePartnerships in advancing satellite capabilities.
+
+TSAT-1A assembled at TASL's state-of-the-art facility in Vemagal, Karnataka, Launched aboard SpaceX's Falcon9 rocket from the Kennedy Space Center, Florida.
+
+TSAT-1A equipped with multispectral and hyperspectral imaging capabilities, it can collect data across wide range of wavelengths it’s advanced features include greater collection capacity and LowLatency data delivery. One of TSAT-1A's key strengths lies in its ability to capture MilitaryGradeImagery with SubMeterResolution.
+
+These capabilities are assured to enhance the preparedness, response capabilities, and strategic decision-making of the IndianDefense forces, marking a significant step forward in India's space technology capabilities.
+
+While India has previously developed military spy satellites through ISRO, TSAT-1A represents the first private sector initiative in this domain. This achievement underscores the growing role of the private sector (Skyroot BellatrixAerospce DhruvaSpace Pixxel Agnikul) in advancing SpaceExploration and underscores India's commitment to pushing the boundaries of Innovation.
+
+## Post 9
+
+Audience: General tech audience
+Purpose: Educate about brain-computer interfaces
+Written fully by me: Partly / AI-assisted
+
+The Power of Brain-Computer Interfaces:
+
+Brain-Computer Interfaces (BCI) create a direct communication link between the brain and external devices, enabling individuals to control them using brain signals. BCIs can be non-invasive, like EEG-based (electroencecephalogram) systems reading brain activity from the scalp, involving implanted devices for more precise readings. These interfaces have diverse applications, from assisting individuals with disabilities to enhancing human-computer interactions.
+
+BCIs detect, analyze, and translate brainsignals into commands that control external devices, such as computers or prosthetic limbs. Ongoing researches of Neuralink FacebookRealityLabs CTRLLabs Emotiv Gtec companies aims to improve signal quality, user-friendliness, and expand applications in fields like medicine, rehabilitation, and everyday life.
+
+The potential of BCIs is vast. They could revolutionize how individuals interact with technology, offering new possibilities for those with physical limitations. As the technology continues to advance, BCIs hold the promise of unlocking a future where the mind's power can reshape the world around us.
+
+## Post 10
+
+Audience: Engineering professionals
+Purpose: Educate about fusion propulsion
+Written fully by me: Yes
+
+Breaking Boundaries in SpaceExploration:
+
+FireStar Fusion Drive from RocketStar is a game-changer in Spacecraft engine propulsion technology. RocketStar has redefined spacecraft engines with this revolutionary fusion-enhanced space thruster, marking a giant leap forward in SpaceTravel.
+Unlike traditional engines, the FireStar Fusion Drive combines an ElectricPropulsionSystem with NuclearFusion, using boronated water to supercharge the plasma thruster's performance, which creates alpha particals and gama rays (indicates nuclear fusion). This innovative approach boosts thrust by 50%, propelling us into a new era of Space Exploration.
